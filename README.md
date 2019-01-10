@@ -1,30 +1,32 @@
 # git-command
 
->Add files
+### Add files
 
 git add <filename>
   
 git add *
   
   
->Commit
+### Commit
 
 git commit -m "Commit message"
 
 git commit -a
 
 
->Push
+### Push
 
 git push origin master
 
 
->Status: List the files you've changed and those you still need to add or commit:
+### Status
+
+>List the files you've changed and those you still need to add or commit:
 
 git status
 
 
->Branches
+### Branches
 
 git checkout <branchname>
 
@@ -33,7 +35,7 @@ git branch
 git branch -d <branchname>  // delete
 
 
->Tags
+### Tags
 
 git tag 1.0.0 <commitID>
   
