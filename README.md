@@ -5,6 +5,8 @@
 git add <filename>
   
 git add *
+
+git add --all
   
   
 ### Commit
@@ -44,5 +46,16 @@ git remote update origin --prune
 
 git pull origin master --allow-unrelated-histories
 
+
+### Delete files
+
+find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+
+find . -name '*.DS_Store' -type f -delete
+
+git commit -m '.DS_Store banished!'
+
+
 https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+https://www.jianshu.com/p/fdaa8be7f6c3
 
