@@ -56,7 +56,12 @@ find . -name '*.DS_Store' -type f -delete
 git commit -m '.DS_Store banished!'
 
 ### Merge error
-git reset --merge  
+
+git reset --merge
+
+### discard changes
+
+git reset --hard
 
 
 https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
