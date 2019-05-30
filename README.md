@@ -61,8 +61,10 @@ git reset --merge
 
 ### discard changes
 
-git reset --hard
+git reflog 
 
+git reset --hard
+git reset --hard HEAD@{n}
 
 https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
 https://www.jianshu.com/p/fdaa8be7f6c3
