@@ -64,6 +64,7 @@ git reset --merge
 git reflog 
 
 git reset --hard
+
 git reset --hard HEAD@{n}
 
 https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
