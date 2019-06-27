@@ -76,3 +76,6 @@ git config --global user.name "Your Name"
 https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
 https://www.jianshu.com/p/fdaa8be7f6c3
 
+### rebase
+git pull --rebase origin develop
+
